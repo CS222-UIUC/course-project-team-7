@@ -26,26 +26,10 @@ export default function Examples() {
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <div className="space-50" />
       <Container className="text-center">
+      <h2 className="title">Featured Bands</h2>
         <Row>
           <Col sm="6">
-            <Link to="landing-page">
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/landing-page.png")}
-              />
-            </Link>
-            <Button
-              className="btn-simple btn-round"
-              color="primary"
-              to="landing-page"
-              tag={Link}
-            >
-              View Landing Page
-            </Button>
-          </Col>
-          <Col sm="6">
-            <Link to="profile-page">
+            <Link to="band1-page">
               <img
                 alt="..."
                 className="img-raised"
@@ -55,10 +39,64 @@ export default function Examples() {
             <Button
               className="btn-simple btn-round"
               color="primary"
-              to="profile-page"
+              to="band1-page"
               tag={Link}
             >
-              View Profile Page
+              Band 1
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="band2-page">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/profile-page.png")}
+              />
+            </Link>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="band2-page"
+              tag={Link}
+            >
+              Band 2
+            </Button>
+          </Col>
+        </Row>
+        <br></br>
+        <Row>
+          <Col sm="6">
+            <Link to="band3-page">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/profile-page.png")}
+              />
+            </Link>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="band3-page"
+              tag={Link}
+            >
+              Band 3
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="band4-page">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/profile-page.png")}
+              />
+            </Link>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="band4-page"
+              tag={Link}
+            >
+              Band 4
             </Button>
           </Col>
         </Row>
