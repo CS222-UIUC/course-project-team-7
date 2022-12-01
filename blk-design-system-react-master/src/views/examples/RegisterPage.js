@@ -39,9 +39,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import Footer from "components/Footer/Footer.js";
-
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 export default function RegisterPage() {
   const [squares1to6, setSquares1to6] = React.useState("");
   const [squares7and8, setSquares7and8] = React.useState("");
@@ -77,7 +75,7 @@ export default function RegisterPage() {
   };
   return (
     <>
-      <ExamplesNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="page-header">
           <div className="page-header-image" />
@@ -213,7 +211,6 @@ export default function RegisterPage() {
             </Container>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

@@ -34,9 +34,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import Footer from "components/Footer/Footer.js";
-
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import bigChartData from "variables/charts.js";
 
 export default function LandingPage() {
@@ -49,7 +47,7 @@ export default function LandingPage() {
   }, []);
   return (
     <>
-      <ExamplesNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="page-header">
           <img
@@ -584,7 +582,6 @@ export default function LandingPage() {
             </Row>
           </Container>
         </section>
-        <Footer />
       </div>
     </>
   );
