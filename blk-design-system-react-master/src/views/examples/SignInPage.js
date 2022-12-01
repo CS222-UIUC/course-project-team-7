@@ -40,7 +40,7 @@ import {
 } from "reactstrap";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-export default function Register() {
+export default function SignIn() {
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   const [passwordFocus, setPasswordFocus] = React.useState(false);
@@ -62,7 +62,7 @@ export default function Register() {
         <Row className="row-grid justify-content-between align-items-center">
           <Col lg="6">
             <h3 className="display-3 text-white">
-              Register Page{" "}
+              Sign In Page{" "}
             </h3>
             <p className="text-white mb-3">
               The Design System comes with four pre-built pages to help you get
@@ -72,8 +72,8 @@ export default function Register() {
               System.
             </p>
             <div className="btn-wrapper">
-              <Button color="primary" to="signin-page" tag={Link}>
-                Sign In 
+              <Button color="primary" to="register-page" tag={Link}>
+                Register
               </Button>
             </div>
           </Col>
@@ -84,30 +84,13 @@ export default function Register() {
                   alt="..."
                   src={require("assets/img/square-purple-1.png")}
                 />
-                <CardTitle tag="h4">Register</CardTitle>
+                <CardTitle tag="h4">sign in </CardTitle>
               </CardHeader>
               <CardBody>
                 <Form className="form">
                   <InputGroup
                     className={classnames({
                       "input-group-focus": fullNameFocus
-                    })}
-                  >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="tim-icons icon-single-02" />
-                      </InputGroupText>
-                    </InputGroupAddon>
-                    <Input
-                      placeholder="Full Name"
-                      type="text"
-                      onFocus={(e) => setFullNameFocus(true)}
-                      onBlur={(e) => setFullNameFocus(false)}
-                    />
-                  </InputGroup>
-                  <InputGroup
-                    className={classnames({
-                      "input-group-focus": emailFocus
                     })}
                   >
                     <InputGroupAddon addonType="prepend">
@@ -139,21 +122,11 @@ export default function Register() {
                       onBlur={(e) => setPasswordFocus(false)}
                     />
                   </InputGroup>
-                  <FormGroup check className="text-left">
-                    <Label check>
-                      <Input type="checkbox" />
-                      <span className="form-check-sign" />I agree to the{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        terms and conditions
-                      </a>
-                      .
-                    </Label>
-                  </FormGroup>
                 </Form>
               </CardBody>
               <CardFooter>
                 <Button className="btn-round" color="primary" size="lg">
-                  Get Started
+                  Sign In
                 </Button>
               </CardFooter>
             </Card>

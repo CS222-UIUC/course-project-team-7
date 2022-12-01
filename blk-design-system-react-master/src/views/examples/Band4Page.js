@@ -66,7 +66,7 @@ const carouselItems = [
 
 let ps = null;
 
-export default function ProfilePage() {
+export default function Band4Page() {
   const [tabs, setTabs] = React.useState(1);
   React.useEffect(() => {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -106,7 +106,7 @@ export default function ProfilePage() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6">
-                <h1 className="profile-title text-left">Mike Scheinder</h1>
+                <h1 className="profile-title text-left">Band 4</h1>
                 <h5 className="text-on-back">01</h5>
                 <p className="profile-description">
                   Offices parties lasting outward nothing age few resolve.

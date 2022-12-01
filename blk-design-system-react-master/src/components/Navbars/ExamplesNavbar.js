@@ -70,7 +70,7 @@ export default function ExamplesNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>BLK• </span>
+            <span>bruh </span>
             Design System React
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
@@ -97,7 +97,7 @@ export default function ExamplesNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  no
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -161,11 +161,6 @@ export default function ExamplesNavbar() {
             <NavItem>
               <NavLink tag={Link} to="/">
                 Back to Kit
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                Have an issue?
               </NavLink>
             </NavItem>
           </Nav>

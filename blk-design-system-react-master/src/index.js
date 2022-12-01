@@ -24,9 +24,17 @@ import "assets/scss/blk-design-system-react.scss";
 import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
+import SignIn from "views/examples/SignInPage.js";
+
 import LandingPage from "views/examples/LandingPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import Band1Page from "views/examples/Band1Page.js";
+import Band2Page from "views/examples/Band2Page.js";
+import Band3Page from "views/examples/Band3Page.js";
+import Band4Page from "views/examples/Band4Page.js";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -45,6 +53,21 @@ root.render(
       <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
+      /><Route
+      path="/band1-page"
+      render={(props) => <Band1Page {...props} />}
+      /><Route
+      path="/band2-page"
+      render={(props) => <Band2Page {...props} />}
+      /><Route
+      path="/band3-page"
+      render={(props) => <Band3Page {...props} />}
+      /><Route
+      path="/band4-page"
+      render={(props) => <Band4Page {...props} />}
+      /> <Route
+      path="/signin-page"
+      render={(props) => <SignIn {...props} />}
       />
       <Redirect from="/" to="/components" />
     </Switch>
