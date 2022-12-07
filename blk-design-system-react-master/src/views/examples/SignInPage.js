@@ -125,7 +125,7 @@ export default function SignIn() {
                 </Form>
               </CardBody>
               <CardFooter>
-                <Button className="btn-round" color="primary" size="lg">
+                <Button className="btn-round" color="primary" size="lg" to="band1-page" tag={Link}>
                   Sign In
                 </Button>
               </CardFooter>

@@ -152,7 +152,7 @@ export default function Register() {
                 </Form>
               </CardBody>
               <CardFooter>
-                <Button className="btn-round" color="primary" size="lg">
+                <Button className="btn-round" color="primary" size="lg" to="band1-page" tag={Link}>
                   Get Started
                 </Button>
               </CardFooter>

@@ -106,13 +106,14 @@ export default function Band1Page() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6">
-                <h1 className="profile-title text-left">Band 1</h1>
+                <h1 className="profile-title text-left">R & M</h1>
                 <h5 className="text-on-back">01</h5>
                 <p className="profile-description">
-                  Offices parties lasting outward nothing age few resolve.
-                  Impression to discretion understood to we interested he
-                  excellence. Him remarkably use projection collecting. Going
-                  about eat forty world has round miles.
+                  An artist of considerable range, Ryan — the name taken by
+                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
+                  performs and records all of his own music, giving it a warm,
+                  intimate feel with a solid groove structure. An artist of
+                  considerable range.
                 </p>
                 <div className="btn-wrapper profile pt-3">
                   <Button
@@ -310,14 +311,10 @@ export default function Band1Page() {
                 </Row>
               </Col>
               <Col md="5">
-                <h1 className="profile-title text-left">Projects</h1>
+                <h1 className="profile-title text-left">Shows</h1>
                 <h5 className="text-on-back">02</h5>
                 <p className="profile-description text-left">
-                  An artist of considerable range, Ryan — the name taken by
-                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure. An artist of
-                  considerable range.
+                  We tour all over the world. Our next location will be in New York December 12th 2022. 
                 </p>
                 <div className="btn-wrapper pt-3">
                   <Button
@@ -414,7 +411,7 @@ export default function Band1Page() {
                     <i className="tim-icons icon-square-pin" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Find us at the office</h4>
+                    <h4 className="info-title">Contact our Record Label</h4>
                     <p>
                       Bld Mihail Kogalniceanu, nr. 8, <br />
                       7652 Bucharest, <br />
