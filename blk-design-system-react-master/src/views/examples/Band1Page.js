@@ -48,19 +48,19 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
 const carouselItems = [
   {
-    src: require("assets/img/denys.jpg"),
+    src: require("assets/img/roo1.jpg"),
     altText: "Slide 1",
-    caption: "Big City Life, United States"
+    caption: "Gig Life"
   },
   {
-    src: require("assets/img/fabien-bazanegue.jpg"),
+    src: require("assets/img/roo2.webp"),
     altText: "Slide 2",
-    caption: "Somewhere Beyond, United States"
+    caption: "In the Moment"
   },
   {
-    src: require("assets/img/mark-finn.jpg"),
+    src: require("assets/img/roo3.webp"),
     altText: "Slide 3",
-    caption: "Stocks, United States"
+    caption: "Full of Conviction"
   }
 ];
 
@@ -106,19 +106,21 @@ export default function Band1Page() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6">
-                <h1 className="profile-title text-left">Band 1</h1>
-                <h5 className="text-on-back">01</h5>
+                <h1 className="profile-title text-left">Kangaroo Court</h1>
+                <h5 className="text-on-back">Roos</h5>
                 <p className="profile-description">
-                  Offices parties lasting outward nothing age few resolve.
-                  Impression to discretion understood to we interested he
-                  excellence. Him remarkably use projection collecting. Going
-                  about eat forty world has round miles.
+                  Formed in October 2021 out of the DIY scene in Urbana IL,
+                  Kangaroo Court took to stages throughout the Midwest and
+                  quickly earned a reputation for their high-energy live
+                  performances and melodic blending of punk, garage, and
+                  psychedelic rock. Kangaroo Court has been named
+                  Champaign/Urbana's best new band by publication Smile Politely.
                 </p>
                 <div className="btn-wrapper profile pt-3">
                   <Button
                     className="btn-icon btn-round"
                     color="twitter"
-                    href="https://twitter.com/creativetim"
+                    href="https://twitter.com/home"
                     id="tooltip639225725"
                     target="_blank"
                   >
@@ -130,7 +132,7 @@ export default function Band1Page() {
                   <Button
                     className="btn-icon btn-round"
                     color="facebook"
-                    href="https://www.facebook.com/creativetim"
+                    href="https://www.facebook.com/kangaroocourtmusic2/"
                     id="tooltip982846143"
                     target="_blank"
                   >
@@ -138,18 +140,6 @@ export default function Band1Page() {
                   </Button>
                   <UncontrolledTooltip delay={0} target="tooltip982846143">
                     Like us
-                  </UncontrolledTooltip>
-                  <Button
-                    className="btn-icon btn-round"
-                    color="dribbble"
-                    href="https://dribbble.com/creativetim"
-                    id="tooltip951161185"
-                    target="_blank"
-                  >
-                    <i className="fab fa-dribbble" />
-                  </Button>
-                  <UncontrolledTooltip delay={0} target="tooltip951161185">
-                    Follow us
                   </UncontrolledTooltip>
                 </div>
               </Col>
@@ -159,9 +149,9 @@ export default function Band1Page() {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/mike.jpg")}
+                      src={require("assets/img/roos.webp")}
                     />
-                    <h4 className="title">Transactions</h4>
+                    <h4 className="title">The Band</h4>
                   </CardHeader>
                   <CardBody>
                     <Nav
@@ -179,7 +169,7 @@ export default function Band1Page() {
                           }}
                           href="#pablo"
                         >
-                          Wallet
+                          Songs
                         </NavLink>
                       </NavItem>
                       <NavItem>
@@ -193,7 +183,7 @@ export default function Band1Page() {
                           }}
                           href="#pablo"
                         >
-                          Send
+                          Donate!
                         </NavLink>
                       </NavItem>
                       <NavItem>
@@ -219,42 +209,34 @@ export default function Band1Page() {
                         <Table className="tablesorter" responsive>
                           <thead className="text-primary">
                             <tr>
-                              <th className="header">COIN</th>
-                              <th className="header">AMOUNT</th>
-                              <th className="header">VALUE</th>
+                              <th className="header">SONG</th>
+                              <th className="header">DATE</th>
+                              <th className="header">STREAMS</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>BTC</td>
-                              <td>7.342</td>
-                              <td>48,870.75 USD</td>
+                              <td>SOMETHING'S GOTTA GIVE</td>
+                              <td>4.8.2022</td>
+                              <td>79,590</td>
                             </tr>
                             <tr>
-                              <td>ETH</td>
-                              <td>30.737</td>
-                              <td>64,53.30 USD</td>
-                            </tr>
-                            <tr>
-                              <td>XRP</td>
-                              <td>19.242</td>
-                              <td>18,354.96 USD</td>
+                              <td>SPARK RANGER</td>
+                              <td>8.19.2022</td>
+                              <td>37,920</td>
                             </tr>
                           </tbody>
                         </Table>
                       </TabPane>
                       <TabPane tabId="tab2">
                         <Row>
-                          <Label sm="3">Pay to</Label>
+                          <Label sm="3">Note</Label>
                           <Col sm="9">
                             <FormGroup>
                               <Input
-                                placeholder="e.g. 1Nasd92348hU984353hfid"
+                                placeholder="Write something!"
                                 type="text"
                               />
-                              <FormText color="default" tag="span">
-                                Please enter a valid address.
-                              </FormText>
                             </FormGroup>
                           </Col>
                         </Row>
@@ -262,7 +244,7 @@ export default function Band1Page() {
                           <Label sm="3">Amount</Label>
                           <Col sm="9">
                             <FormGroup>
-                              <Input placeholder="1.587" type="text" />
+                              <Input placeholder="$10.00" type="text" />
                             </FormGroup>
                           </Col>
                         </Row>
@@ -278,18 +260,18 @@ export default function Band1Page() {
                         <Table className="tablesorter" responsive>
                           <thead className="text-primary">
                             <tr>
-                              <th className="header">Latest Crypto News</th>
+                              <th className="header">Latest Roos News</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>The Daily: Nexo to Pay on Stable...</td>
+                              <td>The Daily Illini: Best Local Band...</td>
                             </tr>
                             <tr>
-                              <td>Venezuela Begins Public of Nation...</td>
+                              <td>Iamur: An Interview With Kangaroo...</td>
                             </tr>
                             <tr>
-                              <td>PR: BitCanna – Dutch Blockchain...</td>
+                              <td>The Daily Illini: A Man and His Band</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -311,13 +293,11 @@ export default function Band1Page() {
               </Col>
               <Col md="5">
                 <h1 className="profile-title text-left">Projects</h1>
-                <h5 className="text-on-back">02</h5>
+                <h5 className="text-on-back">New</h5>
                 <p className="profile-description text-left">
-                  An artist of considerable range, Ryan — the name taken by
-                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure. An artist of
-                  considerable range.
+                  Kangaroo Court plans to release an full-length
+                  album in the very near future. Until then, enjoy
+                  some pictures of their performances and the band itself.
                 </p>
                 <div className="btn-wrapper pt-3">
                   <Button
@@ -347,8 +327,8 @@ export default function Band1Page() {
               <Col md="6">
                 <Card className="card-plain">
                   <CardHeader>
-                    <h1 className="profile-title text-left">Contact</h1>
-                    <h5 className="text-on-back">03</h5>
+                    <h1 className="profile-title text-left">Get in Touch!</h1>
+                    <h5 className="text-on-back">Say Hi</h5>
                   </CardHeader>
                   <CardBody>
                     <Form>
@@ -356,7 +336,7 @@ export default function Band1Page() {
                         <Col md="6">
                           <FormGroup>
                             <label>Your Name</label>
-                            <Input defaultValue="Mike" type="text" />
+                            <Input placeholder="Name" type="text" />
                           </FormGroup>
                         </Col>
                         <Col md="6">
@@ -370,13 +350,13 @@ export default function Band1Page() {
                         <Col md="6">
                           <FormGroup>
                             <label>Phone</label>
-                            <Input defaultValue="001-12321345" type="text" />
+                            <Input placeholder="309-8675309" type="text" />
                           </FormGroup>
                         </Col>
                         <Col md="6">
                           <FormGroup>
-                            <label>Company</label>
-                            <Input defaultValue="CreativeTim" type="text" />
+                            <label>Affiliation</label>
+                            <Input defaultValue="Media" type="text" />
                           </FormGroup>
                         </Col>
                       </Row>
@@ -414,24 +394,11 @@ export default function Band1Page() {
                     <i className="tim-icons icon-square-pin" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Find us at the office</h4>
+                    <h4 className="info-title">Find us at gigs in...</h4>
                     <p>
-                      Bld Mihail Kogalniceanu, nr. 8, <br />
-                      7652 Bucharest, <br />
-                      Romania
-                    </p>
-                  </div>
-                </div>
-                <div className="info info-horizontal">
-                  <div className="icon icon-primary">
-                    <i className="tim-icons icon-mobile" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Give us a ring</h4>
-                    <p>
-                      Michael Jordan <br />
-                      +40 762 321 762 <br />
-                      Mon - Fri, 8:00-22:00
+                      Chicago, <br />
+                      Champaign-Urbana, <br />
+                      Bloomington-Normal
                     </p>
                   </div>
                 </div>
