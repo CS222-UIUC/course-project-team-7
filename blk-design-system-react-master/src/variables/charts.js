@@ -28,7 +28,7 @@ const bigChart = {
 
     return {
       labels: [
-        "JUN",
+        "JAN",
         "FEB",
         "MAR",
         "APR",
@@ -58,7 +58,7 @@ const bigChart = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [80, 160, 200, 160, 250, 280, 220, 190, 200, 250, 290, 320]
+          data: [20, 30, 75, 100, 150, 210, 280, 320, 330, 350, 400]
         }
       ]
     };

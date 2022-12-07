@@ -42,7 +42,7 @@ export default function Examples() {
               to="band1-page"
               tag={Link}
             >
-              Band 1
+              R & M
             </Button>
           </Col>
           <Col sm="6">
