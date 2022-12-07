@@ -18,6 +18,8 @@
 import React from "react";
 // react plugin used to create charts
 import { Line } from "react-chartjs-2";
+import { Link } from "react-router-dom";
+
 // reactstrap components
 import {
   Button,
@@ -84,25 +86,25 @@ export default function LandingPage() {
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
                 <h1 className="text-white">
-                  We keep your coin <br />
-                  <span className="text-white">secured</span>
+                  We share your band <br />
+                  <span className="text-white">with the world</span>
                 </h1>
                 <p className="text-white mb-3">
-                  A wonderful serenity has taken possession of my entire soul,
-                  like these sweet mornings of spring which I enjoy with my
-                  whole heart. I am alone, and feel...
+                  We aspire to bond communities together with Band Buddies! A new innovative
+                  platform that allows bands to post their shows online...
                 </p>
                 <div className="btn-wrapper mb-3">
-                  <p className="category text-success d-inline">
-                    From 9.99%/mo
-                  </p>
                   <Button
                     className="btn-link"
                     color="success"
                     href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    //onClick={(e) => e.preventDefault()}
                     size="sm"
+                    to="register-page" tag={Link}
                   >
+                    <p className="category text-success d-inline">
+                    Register Now
+                  </p>
                     <i className="tim-icons icon-minimal-right" />
                   </Button>
                 </div>
@@ -122,24 +124,16 @@ export default function LandingPage() {
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-dribbble" />
-                    </Button>
-                    <Button
-                      className="btn-icon btn-simple btn-round btn-neutral"
-                      color="default"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
                       <i className="fab fa-facebook" />
                     </Button>
                   </div>
                 </div>
               </Col>
-              <Col lg="4" md="5">
+              <Col>
                 <img
                   alt="..."
                   className="img-fluid"
-                  src={require("assets/img/etherum.png")}
+                  src={require("assets/img/concert.jpeg")}
                 />
               </Col>
             </Row>
@@ -167,7 +161,7 @@ export default function LandingPage() {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p">3,237</CardTitle>
+                                <CardTitle tag="p">5</CardTitle>
                                 <p />
                                 <p className="card-category">Awards</p>
                               </div>
@@ -187,9 +181,9 @@ export default function LandingPage() {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p">3,653</CardTitle>
+                                <CardTitle tag="p">300%</CardTitle>
                                 <p />
-                                <p className="card-category">Commits</p>
+                                <p className="card-category">Exposure</p>
                               </div>
                             </Col>
                           </Row>
@@ -209,9 +203,9 @@ export default function LandingPage() {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p">593</CardTitle>
+                                <CardTitle tag="p">93</CardTitle>
                                 <p />
-                                <p className="card-category">Presents</p>
+                                <p className="card-category">Countries</p>
                               </div>
                             </Col>
                           </Row>
@@ -229,9 +223,9 @@ export default function LandingPage() {
                             </Col>
                             <Col md="8" xs="7">
                               <div className="numbers">
-                                <CardTitle tag="p">10,783</CardTitle>
+                                <CardTitle tag="p">43</CardTitle>
                                 <p />
-                                <p className="card-category">Forks</p>
+                                <p className="card-category">Collabs</p>
                               </div>
                             </Col>
                           </Row>
@@ -247,9 +241,7 @@ export default function LandingPage() {
                       Achivements
                     </h1>
                     <p>
-                      I should be capable of drawing a single stroke at the
-                      present moment; and yet I feel that I never was a greater
-                      artist than now.
+                      (something about how our website helped ppl grow)
                     </p>
                     <br />
                     <p>
@@ -291,19 +283,18 @@ export default function LandingPage() {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-                <h1 className="text-center">Your best benefit</h1>
+                <h1 className="text-center">Benefits</h1>
                 <Row className="row-grid justify-content-center">
                   <Col lg="3">
                     <div className="info">
                       <div className="icon icon-primary">
                         <i className="tim-icons icon-money-coins" />
                       </div>
-                      <h4 className="info-title">Low Commission</h4>
+                      <h4 className="info-title">It's Free</h4>
                       <hr className="line-primary" />
                       <p>
-                        Divide details about your work into parts. Write a few
-                        lines about each one. A paragraph describing a feature
-                        will.
+                        As a non-profit, we hope to support local communities by allowing bands to
+                        share their music for free!
                       </p>
                     </div>
                   </Col>
@@ -312,12 +303,11 @@ export default function LandingPage() {
                       <div className="icon icon-warning">
                         <i className="tim-icons icon-chart-pie-36" />
                       </div>
-                      <h4 className="info-title">High Incomes</h4>
+                      <h4 className="info-title">More Fans</h4>
                       <hr className="line-warning" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing feature will be a feature.
+                        Sharing your work on this website will let your music be known to the world,
+                        allowing you to reach more of your fanbase.
                       </p>
                     </div>
                   </Col>
@@ -326,12 +316,11 @@ export default function LandingPage() {
                       <div className="icon icon-success">
                         <i className="tim-icons icon-single-02" />
                       </div>
-                      <h4 className="info-title">Verified People</h4>
+                      <h4 className="info-title">Connect with others</h4>
                       <hr className="line-success" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing be enough.
+                        By joining Band Buddies, you are able to meet other local bands
+                        and perform collabs together and make connections for life.
                       </p>
                     </div>
                   </Col>
@@ -368,9 +357,9 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">573 K</CardTitle>
+                        <CardTitle tag="p">56 K</CardTitle>
                         <p className="card-category text-white">
-                          Satisfied customers
+                          Visitors
                         </p>
                       </div>
                     </div>
@@ -380,8 +369,8 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">10 425</CardTitle>
-                        <p className="card-category text-white">Business</p>
+                        <CardTitle tag="p">400+</CardTitle>
+                        <p className="card-category text-white">Bands</p>
                       </div>
                     </div>
                   </CardBody>
@@ -450,8 +439,8 @@ export default function LandingPage() {
                 <Row>
                   <Col className="text-left" sm="6">
                     <hr className="line-info" />
-                    <h5 className="card-category">Total Investments</h5>
-                    <CardTitle tag="h2">Performance</CardTitle>
+                    <h5 className="card-category">Number of Bands Registered in 2022</h5>
+                    <CardTitle tag="h2">Our Growth</CardTitle>
                   </Col>
                 </Row>
               </CardHeader>
@@ -465,122 +454,6 @@ export default function LandingPage() {
               </CardBody>
             </Card>
           </Col>
-        </section>
-        <section className="section section-lg section-coins">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path3.png")}
-          />
-          <Container>
-            <Row>
-              <Col md="4">
-                <hr className="line-info" />
-                <h1>
-                  Choose the coin{" "}
-                  <span className="text-info">that fits your needs</span>
-                </h1>
-              </Col>
-            </Row>
-            <Row>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/bitcoin.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Light Coin</h4>
-                        <span>Plan</span>
-                        <hr className="line-primary" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>50 messages</ListGroupItem>
-                        <ListGroupItem>100 emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="primary">
-                      Get plan
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/etherum.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Dark Coin</h4>
-                        <span>Plan</span>
-                        <hr className="line-success" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>150 messages</ListGroupItem>
-                        <ListGroupItem>1000 emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="success">
-                      Get plan
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Bright Coin</h4>
-                        <span>Plan</span>
-                        <hr className="line-info" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>350 messages</ListGroupItem>
-                        <ListGroupItem>10K emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="info">
-                      Get plan
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
         </section>
       </div>
     </>
