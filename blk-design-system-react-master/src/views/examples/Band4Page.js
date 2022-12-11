@@ -48,19 +48,19 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
 const carouselItems = [
   {
-    src: require("assets/img/roo1.jpg"),
+    src: require("assets/img/horse1.jpg"),
     altText: "Slide 1",
-    caption: "Gig Life"
+    caption: "Horse"
   },
   {
-    src: require("assets/img/roo2.webp"),
+    src: require("assets/img/horse2.jpg"),
     altText: "Slide 2",
-    caption: "In the Moment"
+    caption: "Girl"
   },
   {
-    src: require("assets/img/roo3.webp"),
+    src: require("assets/img/horse3.jpg"),
     altText: "Slide 3",
-    caption: "Full of Conviction"
+    caption: "Horsegirl"
   }
 ];
 
@@ -106,21 +106,16 @@ export default function Band4Page() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6">
-                <h1 className="profile-title text-left">Kangaroo Court</h1>
-                <h5 className="text-on-back">Roos</h5>
+                <h1 className="profile-title text-left">Horsegirl</h1>
+                <h5 className="text-on-back">Girl</h5>
                 <p className="profile-description">
-                  Formed in October 2021 out of the DIY scene in Urbana IL,
-                  Kangaroo Court took to stages throughout the Midwest and
-                  quickly earned a reputation for their high-energy live
-                  performances and melodic blending of punk, garage, and
-                  psychedelic rock. Kangaroo Court has been named
-                  Champaign/Urbana's best new band by publication Smile Politely.
+                Sensational Horse Muzak Sound Noise Group From A City (Chicago)
                 </p>
                 <div className="btn-wrapper profile pt-3">
                   <Button
                     className="btn-icon btn-round"
                     color="twitter"
-                    href="https://twitter.com/home"
+                    href="https://twitter.com/musichorsegirl"
                     id="tooltip639225725"
                     target="_blank"
                   >
@@ -132,7 +127,7 @@ export default function Band4Page() {
                   <Button
                     className="btn-icon btn-round"
                     color="facebook"
-                    href="https://www.facebook.com/kangaroocourtmusic2/"
+                    href="https://www.facebook.com/horsegirlmusic"
                     id="tooltip982846143"
                     target="_blank"
                   >
@@ -149,7 +144,7 @@ export default function Band4Page() {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/roos.webp")}
+                      src={require("assets/img/horse.jpg")}
                     />
                     <h4 className="title">The Band</h4>
                   </CardHeader>
@@ -216,14 +211,14 @@ export default function Band4Page() {
                           </thead>
                           <tbody>
                             <tr>
-                              <td>SOMETHING'S GOTTA GIVE</td>
-                              <td>4.8.2022</td>
-                              <td>79,590</td>
+                              <td>ANTI-GLORY</td>
+                              <td>6.3.2022</td>
+                              <td>1,190,707</td>
                             </tr>
                             <tr>
-                              <td> SPARK RANGER</td>
-                              <td>8.19.2022</td>
-                              <td>37,920</td>
+                              <td>BALLROOM DANCE SCENE</td>
+                              <td>11.6.2020</td>
+                              <td>1,128,112</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -265,13 +260,13 @@ export default function Band4Page() {
                           </thead>
                           <tbody>
                             <tr>
-                              <td>The Daily Illini: Best Local Band...</td>
+                              <td>Loud&Quiet: Meet Horsegirl, Three...</td>
                             </tr>
                             <tr>
-                              <td>Iamur: An Interview With Kangaroo...</td>
+                              <td>Vulture: Horsegirl Interview: On...</td>
                             </tr>
                             <tr>
-                              <td>The Daily Illini: A Man and His Band</td>
+                              <td>Pitchfork: Versions of Modern Pe...</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -295,9 +290,9 @@ export default function Band4Page() {
                 <h1 className="profile-title text-left">Projects</h1>
                 <h5 className="text-on-back">New</h5>
                 <p className="profile-description text-left">
-                  Kangaroo Court plans to release an full-length
-                  album in the very near future. Until then, enjoy
-                  some pictures of their performances and the band itself.
+                Versions of Modern Performance is out now!!!
+                This is the sound of our last four years as friends. 
+                Thank you for listening.
                 </p>
                 <div className="btn-wrapper pt-3">
                   <Button
@@ -397,8 +392,8 @@ export default function Band4Page() {
                     <h4 className="info-title">Find us at gigs in...</h4>
                     <p>
                       Chicago, <br />
-                      Champaign-Urbana, <br />
-                      Bloomington-Normal
+                      Chicago, <br />
+                      or Anywhere
                     </p>
                   </div>
                 </div>
