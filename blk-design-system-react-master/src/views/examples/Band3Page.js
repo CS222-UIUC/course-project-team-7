@@ -48,19 +48,19 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
 const carouselItems = [
   {
-    src: require("assets/img/strokes1.jpg"),
+    src: require("assets/img/roo1.jpg"),
     altText: "Slide 1",
-    caption: "The New Abnormal"
+    caption: "Gig Life"
   },
   {
-    src: require("assets/img/strokes2.jpg"),
+    src: require("assets/img/roo2.webp"),
     altText: "Slide 2",
-    caption: "Julian Casablancas"
+    caption: "In the Moment"
   },
   {
-    src: require("assets/img/strokes3.webp"),
+    src: require("assets/img/roo3.webp"),
     altText: "Slide 3",
-    caption: "Glowing"
+    caption: "Full of Conviction"
   }
 ];
 
@@ -106,20 +106,21 @@ export default function Band3Page() {
           <Container className="align-items-center">
             <Row>
               <Col lg="6" md="6">
-                <h1 className="profile-title text-left">The Strokes</h1>
+                <h1 className="profile-title text-left">Kangaroo Court</h1>
                 <h5 className="text-on-back">Roos</h5>
                 <p className="profile-description">
-                The Strokes are an American rock band from New York City. Formed in 1998, 
-                the band is composed of lead singer and songwriter Julian Casablancas, 
-                guitarists Nick Valensi and Albert Hammond Jr., bassist 
-                Nikolai Fraiture, and drummer Fabrizio Moretti. They were a leading 
-                group of the early-2000s indie rock revival, according to Wikipedia.
+                  Formed in October 2021 out of the DIY scene in Urbana IL,
+                  Kangaroo Court took to stages throughout the Midwest and
+                  quickly earned a reputation for their high-energy live
+                  performances and melodic blending of punk, garage, and
+                  psychedelic rock. Kangaroo Court has been named
+                  Champaign/Urbana's best new band by publication Smile Politely.
                 </p>
                 <div className="btn-wrapper profile pt-3">
                   <Button
                     className="btn-icon btn-round"
                     color="twitter"
-                    href="https://twitter.com/thestrokes"
+                    href="https://twitter.com/home"
                     id="tooltip639225725"
                     target="_blank"
                   >
@@ -131,7 +132,7 @@ export default function Band3Page() {
                   <Button
                     className="btn-icon btn-round"
                     color="facebook"
-                    href="https://www.facebook.com/thestrokes"
+                    href="https://www.facebook.com/kangaroocourtmusic2/"
                     id="tooltip982846143"
                     target="_blank"
                   >
@@ -148,7 +149,7 @@ export default function Band3Page() {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/strokes.jpg")}
+                      src={require("assets/img/roos.webp")}
                     />
                     <h4 className="title">The Band</h4>
                   </CardHeader>
@@ -215,14 +216,14 @@ export default function Band3Page() {
                           </thead>
                           <tbody>
                             <tr>
-                              <td>THE ADULTS ARE TALKING</td>
-                              <td>4.10.2020</td>
-                              <td>245,424,570</td>
+                              <td>SOMETHING'S GOTTA GIVE</td>
+                              <td>4.8.2022</td>
+                              <td>79,590</td>
                             </tr>
                             <tr>
-                              <td>REPTILIA</td>
-                              <td>10.28.2003</td>
-                              <td>381,351,272</td>
+                              <td> SPARK RANGER</td>
+                              <td>8.19.2022</td>
+                              <td>37,920</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -259,18 +260,18 @@ export default function Band3Page() {
                         <Table className="tablesorter" responsive>
                           <thead className="text-primary">
                             <tr>
-                              <th className="header">Strokes News</th>
+                              <th className="header">Latest Roos News</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Pitchfork: The New Abnormal Review...</td>
+                              <td>The Daily Illini: Best Local Band...</td>
                             </tr>
                             <tr>
-                              <td>Stereogum: Kilby Block Party Lineup...</td>
+                              <td>Iamur: An Interview With Kangaroo...</td>
                             </tr>
                             <tr>
-                              <td>The New York Times: How the Strokes...</td>
+                              <td>The Daily Illini: A Man and His Band</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -294,9 +295,9 @@ export default function Band3Page() {
                 <h1 className="profile-title text-left">Projects</h1>
                 <h5 className="text-on-back">New</h5>
                 <p className="profile-description text-left">
-                  Listen to the new full-length project by the Strokes,
-                  The New Abnormal, out now! Also be sure to see them
-                  open for the Red Hot Chili Peppers on select dates.
+                  Kangaroo Court plans to release an full-length
+                  album in the very near future. Until then, enjoy
+                  some pictures of their performances and the band itself.
                 </p>
                 <div className="btn-wrapper pt-3">
                   <Button
@@ -395,9 +396,9 @@ export default function Band3Page() {
                   <div className="description">
                     <h4 className="info-title">Find us at gigs in...</h4>
                     <p>
-                      NYC, <br />
-                      Los Angeles, <br />
-                      and Venues Across the World
+                      Chicago, <br />
+                      Champaign-Urbana, <br />
+                      Bloomington-Normal
                     </p>
                   </div>
                 </div>

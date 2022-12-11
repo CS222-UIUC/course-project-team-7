@@ -48,19 +48,19 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
 const carouselItems = [
   {
-    src: require("assets/img/4x41.PNG"),
+    src: require("assets/img/roo1.jpg"),
     altText: "Slide 1",
-    caption: "Waluigi's Mansion"
+    caption: "Gig Life"
   },
   {
-    src: require("assets/img/4x42.PNG"),
+    src: require("assets/img/roo2.webp"),
     altText: "Slide 2",
-    caption: "Nightshop"
+    caption: "In the Moment"
   },
   {
-    src: require("assets/img/4x43.PNG"),
+    src: require("assets/img/roo3.webp"),
     altText: "Slide 3",
-    caption: "Enter the Matrix"
+    caption: "Full of Conviction"
   }
 ];
 
@@ -150,7 +150,7 @@ export default function Band2Page() {
                     <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/4x4.jfif")}
+                      src={require("assets/img/roos.webp")}
                     />
                     <h4 className="title">The Band</h4>
                   </CardHeader>
@@ -261,18 +261,18 @@ export default function Band2Page() {
                         <Table className="tablesorter" responsive>
                           <thead className="text-primary">
                             <tr>
-                              <th className="header">Latest 4x4 News</th>
+                              <th className="header">Latest Roos News</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>The New York Times: What a Dope Band...</td>
+                              <td>The Daily Illini: Best Local Band...</td>
                             </tr>
                             <tr>
-                              <td>Chicago Tribune: An Interview With 4x4...</td>
+                              <td>Iamur: An Interview With Kangaroo...</td>
                             </tr>
                             <tr>
-                              <td>Fresno Star: The Band Named After a Burger...</td>
+                              <td>The Daily Illini: A Man and His Band</td>
                             </tr>
                           </tbody>
                         </Table>
@@ -296,8 +296,9 @@ export default function Band2Page() {
                 <h1 className="profile-title text-left">Projects</h1>
                 <h5 className="text-on-back">New</h5>
                 <p className="profile-description text-left">
-                  4x4 is content with touring for now, but keep on the
-                  lookout for new developments and show announcements!
+                  Kangaroo Court plans to release an full-length
+                  album in the very near future. Until then, enjoy
+                  some pictures of their performances and the band itself.
                 </p>
                 <div className="btn-wrapper pt-3">
                   <Button

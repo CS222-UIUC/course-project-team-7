@@ -33,7 +33,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/roopage.PNG")}
+                src={require("assets/img/profile-page.png")}
               />
             </Link>
             <Button
@@ -42,7 +42,7 @@ export default function Examples() {
               to="band1-page"
               tag={Link}
             >
-              Kangaroo Court
+              R & M
             </Button>
           </Col>
           <Col sm="6">
@@ -50,7 +50,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/4x4page.PNG")}
+                src={require("assets/img/profile-page.png")}
               />
             </Link>
             <Button
@@ -59,7 +59,7 @@ export default function Examples() {
               to="band2-page"
               tag={Link}
             >
-              4x4 Animal Style
+              Band 2
             </Button>
           </Col>
         </Row>
@@ -70,7 +70,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/strokespage.PNG")}
+                src={require("assets/img/profile-page.png")}
               />
             </Link>
             <Button
@@ -79,7 +79,7 @@ export default function Examples() {
               to="band3-page"
               tag={Link}
             >
-              The Strokes
+              Band 3
             </Button>
           </Col>
           <Col sm="6">
@@ -87,7 +87,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/horsepage.PNG")}
+                src={require("assets/img/profile-page.png")}
               />
             </Link>
             <Button
@@ -96,7 +96,7 @@ export default function Examples() {
               to="band4-page"
               tag={Link}
             >
-              Horsegirl
+              Band 4
             </Button>
           </Col>
         </Row>
