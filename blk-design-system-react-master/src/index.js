@@ -33,6 +33,7 @@ import Band1Page from "views/examples/Band1Page.js";
 import Band2Page from "views/examples/Band2Page.js";
 import Band3Page from "views/examples/Band3Page.js";
 import Band4Page from "views/examples/Band4Page.js";
+import Searcher from "views/examples/Searcher.js";
 
 
 
@@ -65,9 +66,12 @@ root.render(
       /><Route
       path="/band4-page"
       render={(props) => <Band4Page {...props} />}
-      /> <Route
+      /><Route
       path="/signin-page"
       render={(props) => <SignIn {...props} />}
+      /><Route
+      path="/searcher-page"
+      render={(props) => <Searcher {...props} />}
       />
       <Redirect from="/" to="/components" />
     </Switch>
