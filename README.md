@@ -7,6 +7,7 @@ Reproducible Installation Instructions:
 - If you do not have npm on you computer,  install nvm (for Windows, use coreybutler/nvm-windows: A node.js version management utility for Windows. Ironically written in Go. (github.com))
 - If you do not have npm on you computer, run “npm install” in the blk-design-system-react-master directory (fix any (dependency) issues along the way based on feedback from terminal)
 - Run “npm start” in the blk-design-system-react-master directory of the repository to start up the local host.
+
 Group members and roles: 
 - Arthur: Basic App Logic, UI/UX
 - Cole: Basic App Logic, ZipCodeAPI
